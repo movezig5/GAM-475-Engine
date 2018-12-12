@@ -1,0 +1,33 @@
+--------
+CONTROLS
+--------
+W - Move the camera forward
+S - Move the camer backward
+A - Turn the camera left
+D - Turn the camera right
+Up Arrow - Tilt the camera down (inverted controls)
+Down Arrow - Tilt the camera up (inverted controls)
+Left Arrow - Shift the camera left
+Right Arrow - Shift the camera right
+Space - Move the camera up
+C - Move the camera down
+[ (Left Bracket) - Switch to the next camera
+] (Right Bracket) - Switch to the previous camera
+	Note:	I got the camera transition controls swapped, but it doesn't really
+		make a difference anyway, so I left it as is.
+
+R - Reset the camera to its starting orientation and position
+- (Minus) - Remove the last game object from the PCSTree and store it.
+= (Equals) - If you have a game object stored, add it to the front of the PCSTree and "unstore" it
+DELETE - Permanently delete the object you have stored.
+N - Remove and delete the current camera
+M - Add a new camera with the starting position and orientation and switch to it.
+, (Comma) - Create a new camera with an experimental "orthogonal" projection matrix.
+	Note:	The orthogonal camera was something I experimented with, but didn't
+		have time to finish. It doesn't work right, but feel free to check it
+		out if you want--it's trippy. You can delete it like a normal camera.
+1, 2, 3, 4 - Change the texture of the cube you see at the start of the demo. The numbers correspond to different textures:
+	1 - Duckweed
+	2 - Red brick
+	3 - Rocks
+	4 - Stone

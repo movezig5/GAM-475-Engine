@@ -1,0 +1,5 @@
+Check out the System_Libs folder and put it in the same directory as the Engine folder before compiling. (Or use yours -- the libraries are actually the same libraries in the demos. I was pressed for time and couldn't make my own.)
+
+Note that for some reason, I could only get the compiled project to run when I started it inside Visual Studio. Again, I was pressed for time, so I can't look into that bug. That said, the project runs in both debug and release.
+
+See the "Controls" file for instructions on how to control the demo.
